@@ -27,8 +27,8 @@ def print_item_status(item_status):
     print('{parent}:{child} ({status})'.format(**item_status._asdict()))
 
 
-def query_db():
-    with open(os.path.join(os.path.dirname(__file__), 'data.json'), 'r') as fp:
+def query_db(filename='data.json'):
+    with open(os.path.join(os.path.dirname(__file__), filename), 'r') as fp:
         return json.load(fp)
 
 

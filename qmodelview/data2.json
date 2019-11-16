@@ -1,0 +1,111 @@
+[
+    {
+        "name": "B",
+        "items": [
+            {
+                "name": "01",
+                "items": [
+                    {"name": "foo", "status": "wip"},
+                    {"name": "bar", "status": "wip"},
+                    {"name": "bat", "status": "wip"},
+                    {"name": "baz", "status": "wip"},
+                    {"name": "qux", "status": "wip"}
+                ]
+            },
+            {
+                "name": "02",
+                "items": [
+                    {"name": "foo", "status": "rdy"},
+                    {"name": "bar", "status": "wip"},
+                    {"name": "baz", "status": "wip"},
+                    {"name": "qux", "status": "wip"}
+                ]
+            },
+            {
+                "name": "03",
+                "items": [
+                    {"name": "bar", "status": "fin"},
+                    {"name": "bat", "status": "fin"},
+                    {"name": "baz", "status": "wip"},
+                    {"name": "qux", "status": "wip"}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "A",
+        "items": [
+            {
+                "name": "01",
+                "items": [
+                    {"name": "foo", "status": "wip"},
+                    {"name": "baz", "status": "wip"},
+                    {"name": "qux", "status": "wip"}
+                ]
+            },
+            {
+                "name": "02",
+                "items": []
+            },
+            {
+                "name": "03",
+                "items": [
+                    {"name": "foo", "status": "fin"},
+                    {"name": "bar", "status": "fin"},
+                    {"name": "bat", "status": "rdy"},
+                    {"name": "baz", "status": "wip"},
+                    {"name": "qux", "status": "rdy"}
+                ]
+            },
+            {
+                "name": "04",
+                "items": [
+                    {"name": "foo", "status": "fin"},
+                    {"name": "bar", "status": "wip"},
+                    {"name": "bat", "status": "omt"},                    
+                    {"name": "baz", "status": "wip"},
+                    {"name": "qux", "status": "omt"}
+                ]
+            },
+            {
+                "name": "05",
+                "items": [
+                    {"name": "foo", "status": "wip"},
+                    {"name": "bar", "status": "rdy"},
+                    {"name": "bat", "status": "rdy"}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "C",
+        "items": [
+            {
+                "name": "01",
+                "items": [
+                    {"name": "foo", "status": "fin"},
+                    {"name": "bar", "status": "fin"},
+                    {"name": "bat", "status": "fin"},                    
+                    {"name": "baz", "status": "wip"},
+                    {"name": "qux", "status": "omt"}
+                ]
+            },
+            {
+                "name": "02",
+                "items": [
+                    {"name": "foo", "status": "fin"},
+                    {"name": "bat", "status": "rdy"},                    
+                    {"name": "baz", "status": "wip"},
+                    {"name": "qux", "status": "omt"}
+                ]
+            },
+            {
+                "name": "03",
+                "items": [                    
+                    {"name": "baz", "status": "wip"},
+                    {"name": "qux", "status": "omt"}
+                ]
+            }
+        ]
+    }
+]
